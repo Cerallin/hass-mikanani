@@ -1,5 +1,5 @@
 custom_components/__pycache__
-custom_components/mikan/__pycache__
+custom_components/*/__pycache__
 tests/__pycache__
 
 .pytest_cache
