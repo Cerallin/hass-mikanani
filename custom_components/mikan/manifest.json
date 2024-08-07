@@ -1,0 +1,12 @@
+{
+  "domain": "mikanani",
+  "name": "Mikanani",
+  "codeowners": ["@Cerallin"],
+  "dependencies": [],
+  "documentation": "https://github.com/Cerallin/hass-mikan/blob/master/README.md",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Cerallin/hass-mikan/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

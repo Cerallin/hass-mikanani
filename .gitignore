@@ -1,0 +1,11 @@
+custom_components/__pycache__
+custom_components/mikan/__pycache__
+tests/__pycache__
+
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+.vscode/
+
+test_hass/
