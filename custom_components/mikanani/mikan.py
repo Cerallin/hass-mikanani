@@ -94,7 +94,7 @@ class MikanHTMLParser(HTMLParser):
             if tag == "span":
                 # 封面图片链接
                 if (image_link := attributes.get("data-src")) is not None:
-                    self._bangumi.image_link = image_link
+                    self._bangumi.image_link = MIKAN_HOST + image_link
                 # 是否已订阅
                 self._bangumi.subscribed = attributes.get("data-showsubscribed") == "true"
                 # bangumi id, 如果是数字才记录
